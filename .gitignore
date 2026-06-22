@@ -1,15 +1,53 @@
-```
-# Dependencies
-node_modules/
-# Environment
+# Day Night Delivery Services - Professional .gitignore
+
+# Environment and secrets
 .env
-.env.local
 .env.*
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-# Editors
-.vscode/
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*service_role*
+*secret*
+*private*
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+.vercel/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# WordPress local files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/backups*/
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
 .idea/
-```
+
+# Backups
+*.bak
+*.backup
+*.old
+*.tmp
+
+# Local reports
+06-Backups/*.zip

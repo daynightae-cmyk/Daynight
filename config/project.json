@@ -1,0 +1,15 @@
+{
+"project": "DAY NIGHT DELIVERY SERVICES",
+"arabic_name": "داي نايت لخدمات التوصيل والشحن",
+"domain": "[https://www.daynightae.com](https://www.daynightae.com)",
+"repository": "[https://github.com/daynightae-cmyk/Daynight](https://github.com/daynightae-cmyk/Daynight)",
+"phone": "+971568757331",
+"email": "[Admin@daynight.ae](mailto:Admin@daynight.ae)",
+"location": "UAE - Abu Dhabi - Mussafah 40",
+"stack": {
+"website": "WordPress",
+"hosting": "Namecheap",
+"backend": "Supabase",
+"future_frontend": "Next.js"
+}
+}
