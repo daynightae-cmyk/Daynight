@@ -1,0 +1,9 @@
+﻿DAY NIGHT EXPRESS - TODO
+
+[ ] Connect GitHub account using gh auth login
+[ ] Create GitHub repository
+[ ] Prepare WordPress content
+[ ] Prepare website sections
+[ ] Prepare Supabase backend documentation
+[ ] Upload brand assets and logo
+[ ] Prepare deployment plan for Namecheap

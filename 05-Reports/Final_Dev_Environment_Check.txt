@@ -1,0 +1,101 @@
+﻿DAY NIGHT EXPRESS - FINAL DEV ENVIRONMENT CHECK
+Generated: 06/22/2026 03:48:53
+
+==== Git ====
+git version 2.54.0.windows.1
+
+==== Node.js ====
+v24.16.0
+
+==== npm ====
+11.13.0
+
+==== pnpm ====
+11.8.0
+
+==== Python ====
+Python 3.12.10
+
+==== pip ====
+pip 26.1.2 from C:\Users\day night\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
+
+
+==== PHP ====
+PHP 8.3.31 (cli) (built: May  5 2026 17:23:34) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.3.31, Copyright (c) Zend Technologies
+
+==== Composer ====
+Composer version 2.10.1 2026-06-04 10:25:59
+cmd : PHP version 8.3.31 (C:\Users\day 
+night\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe\php.exe)
+At line:8 char:5
++     cmd /c $Command 2>&1 | Out-File $ReportFile -Append -Encoding UTF ...
++     ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PHP version 8.3...d8bbwe\php.exe):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Run the "diagnose" command to get more detailed diagnostics output.
+
+==== Composer Diagnose ====
+Checking pubkeys: 
+Tags Public Key Fingerprint: 57815BA2 7E54DC31 7ECC7CC5 573090D0  87719BA6 8F3BB723 4E5D42D0 84A14642
+Dev Public Key Fingerprint: 4AC45767 E5EC2265 2F0C1167 CBBB8A2B  0C708369 153E328C AD90147D AFE50952
+OK
+Checking Composer version: OK
+Composer version: 2.10.1
+Checking Composer and its dependencies for vulnerabilities: OK
+PHP version: 8.3.31
+PHP binary path: C:\Users\day night\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe\php.exe
+OpenSSL version: OpenSSL 3.0.20 7 Apr 2026
+curl version: 8.20.0 libz 1.3.2 brotli brotli/1.2.0 zstd supported ssl OpenSSL/3.0.20 HTTP 1.0, 1.1, 2
+zip: extension not loaded, unzip not available, 7-Zip present (7z)
+Checking platform settings: OK
+Checking git settings: OK git version 2.54.0
+Checking http connectivity to packagist: OK
+Checking https connectivity to packagist: OK
+Checking github.com rate limit: OK
+Checking disk free space: OK
+
+==== GitHub CLI ====
+gh version 2.95.0 (2026-06-17)
+https://github.com/cli/cli/releases/tag/v2.95.0
+
+==== Supabase CLI ====
+2.107.0
+
+==== Vercel CLI ====
+cmd : Vercel CLI 54.14.5
+At line:8 char:5
++     cmd /c $Command 2>&1 | Out-File $ReportFile -Append -Encoding UTF ...
++     ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Vercel CLI 54.14.5:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+54.14.5
+
+==== TypeScript ====
+Version 6.0.3
+
+==== WP-CLI ====
+OS:	Windows NT 10.0 build 19045 (Windows 10) AMD64
+Shell:	C:\WINDOWS\system32\cmd.exe
+PHP binary:	C:\Users\day night\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe\php.exe
+PHP version:	8.3.31
+php.ini used:	C:\Users\day night\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.3_Microsoft.Winget.Source_8wekyb3d8bbwe\php.ini
+MySQL binary:	
+MySQL version:	
+SQL modes:	
+WP-CLI root dir:	phar://wp-cli.phar/vendor/wp-cli/wp-cli
+WP-CLI vendor dir:	phar://wp-cli.phar/vendor
+WP_CLI phar path:	phar://C:/wp-cli/wp-cli.phar
+WP-CLI packages dir:	
+WP-CLI cache dir:	C:\Users\day night/.wp-cli/cache
+WP-CLI global config:	
+WP-CLI project config:	
+WP-CLI version:	2.12.0
+
+==== VS Code ====
+1.124.2
+6928394f91b684055b873eecb8bc281365131f1c
+x64
