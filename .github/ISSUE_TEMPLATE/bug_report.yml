@@ -1,0 +1,22 @@
+name: Bug Report
+description: Report a problem in the project
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: Explain the issue clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps that caused the issue.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      description: What should happen?

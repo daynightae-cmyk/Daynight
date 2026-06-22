@@ -1,0 +1,17 @@
+name: Feature Request
+description: Suggest a new feature
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: Describe the requested feature.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Business Value
+      description: Explain why this feature helps DAY NIGHT DELIVERY SERVICES.

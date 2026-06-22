@@ -1,0 +1,36 @@
+name: Repository Quality Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  repository-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f README.md
+          test -d 01-Website-WordPress/pages
+          test -f 01-Website-WordPress/WORDPRESS_IMPORT_PLAN.md
+          test -f 01-Website-WordPress/content/company-profile-full.md
+          echo "Required files found."
+
+      - name: Check for obvious secret files
+        run: |
+          FOUND=$(find . \( -name ".env" -o -name "*.pem" -o -name "*.key" -o -iname "*service_role*" \) -print)
+          if [ -n "$FOUND" ]; then
+            echo "Potential secret files found:"
+            echo "$FOUND"
+            exit 1
+          fi
+          echo "No obvious secret files found."
+
+      - name: Check WordPress markdown pages
+        run: |
+          ls 01-Website-WordPress/pages/*.md
+          echo "WordPress markdown pages found."
