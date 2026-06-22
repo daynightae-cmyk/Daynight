@@ -1,4 +1,4 @@
-﻿# DAY NIGHT DELIVERY SERVICES Website
+# DAY NIGHT DELIVERY SERVICES Website
 
 ## Website Structure
 
