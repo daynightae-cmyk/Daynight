@@ -1,6 +1,10 @@
-# DAY NIGHT DELIVERY SERVICES Website
+# DAY NIGHT DELIVERY SERVICES Website Content
 
-## Website Structure
+## هدف هذا المجلد
+
+هذا المجلد يحتوي على محتوى صفحات موقع WordPress الرسمي لشركة DAY NIGHT DELIVERY SERVICES بصيغة Markdown و UTF-8 حتى يظهر النص العربي بشكل صحيح.
+
+## الصفحات الجاهزة
 
 1. Home
 2. About Us
@@ -13,15 +17,17 @@
 9. Request Delivery
 10. Contact Us
 
-## Domain
+## البيانات الرسمية
 
-https://daynightae.com
+Company: DAY NIGHT DELIVERY SERVICES  
+Arabic: داي نايت لخدمات التوصيل والشحن  
+Website: https://www.daynightae.com  
+Phone / WhatsApp: +971 56 875 7331  
+Email: Admin@daynight.ae  
+Address: UAE – Abu Dhabi – Mussafah 40  
 
 ## Brand
 
-DAY NIGHT DELIVERY SERVICES
-داي نايت لخدمات التوصيل والشحن
-
-24/7 DELIVERY SERVICE
-Swift • Secure • Exceptional
-سرعة • أمان • تميز
+24/7 DELIVERY SERVICE  
+Swift • Secure • Exceptional  
+سرعة • أمان • تميز  
